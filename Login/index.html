@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Login/styles/style.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet" />
+    <title>Barbearia Rossini</title>
+</head>
+<body>
+    <header>
+      
+        <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+          <!-- Container wrapper -->
+          <div class="container">
+            <!-- Navbar brand -->
+            <a class="navbar-brand me-2" href="../index.html">
+              <img
+                src="../images/mustache.png"
+                height="70"
+                width="70"
+                class="p-1"
+                alt="MDB Logo"
+                loading="lazy"
+                style="margin-top: -1px;"
+              />
+              <h3>Barbearia Rossini</h3>
+            </a>
+                <!-- Left links -->
+        
+              <div class="d-flex align-items-center">
+                <a href="../Agendamento/index.html" class="text-muted">
+                    <button type="button" class="btn btn-light px-3 me-2">
+                            Horários
+                    </button>
+                </a>
+                <a href="../Cadastro/index.html" class="text-muted">
+                    <button type="button" class="btn btn-primary me-3">
+                        Cadastre-se
+                      </button>
+                </a>
+               
+                <a
+                  class="btn btn-dark px-3"
+                  href="#"
+                  role="button"
+                  ><i class="far fa-user-circle"></i> Login</a>
+              </div>
+            </div>
+            <!-- Collapsible wrapper -->
+          </div>
+          <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+              
+              
+          </header>
+    <section>
+        <section class="containerLogo hover-shadow">
+            <div id="logotipo">
+                <img src="../Login/assets/rossini.png" loading="lazy" id="logocenter" class="shadow-5-strong">
+            </div>
+            <form id="form">
+                <!-- Nome input -->
+                <div class="form-outline mb-4">
+                    <input type="text" id="nomeid" class="form-control bg-white" />
+                    <label class="form-label bg-white" for="form3Example1">Nome</label>
+                  </div>
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="email" class="form-control" />
+                  <label class="form-label" for="form1Example1">Email</label>
+                </div>
+              
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" id="password" class="form-control" />
+                  <label class="form-label" for="form1Example2">Senha</label>
+                </div>
+              
+                <!-- 2 column grid layout for inline styling -->
+                <div class="row mb-4">
+                  <div class="col d-flex justify-content-center">
+                    <!-- Checkbox -->
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="form1Example3"
+                        checked
+                      />
+                      <label class="form-check-label" for="form1Example3"> Lembrar</label>
+                    </div>
+                  </div>
+              
+                  <div class="col">
+                    <!-- Simple link -->
+                    <a href="#!" class="text-body">Esqueceu a senha?</a>
+                  </div>
+                </div>
+              
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-dark btn-block">Entrar</button>
+              </form>
+        </section>
+    </section>
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <p class="fs-5"> Nos siga nas redes sociais: </p>
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/barbeariarossini/" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a> 
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/barbearia.rossini/" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!--Booksy-->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://booksy.com/pt-br/4557_juliana-rossini-barbearia-rossini_barba_1100540_aracoiaba-da-serra" role="button"
+            ><i class="fas fa-bold"></i></i
+          ></a>
+            
+          </section>
+          <!-- Section: Social media -->
+          <section class="mb-5">
+            <button id="back-to-top"type="button"
+            class="btn btn-outline-light btn-sm"
+            data-mdb-ripple-color="dark">topo</button>
+          </section>
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2014 Copyright:
+          <a class="text-white" href="https://www.instagram.com/barbearia.rossini/">Barbearia Rossini</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    <script src="../Login/scripts/main.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

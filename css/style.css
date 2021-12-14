@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    outline: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 20px;
+    color: #262526;
+    text-align: center;
+    background-image: url('../images/fundobg.jpg');
+    background-size: cover;
+
+}
+
+.logotipo {
+    width: 60px;
+    height: 50px;
+}
+
+.movie{
+    margin-top: 70px;
+
+}
+
+.models{
+    background-color: #403E3F;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+    
+
+}
+
+figure{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo2{
+    color: #F2F2F2;
+    font-weight: normal;
+}
+
+.team{
+
+    background-color: #8C8C8C;
+}
+
+#carousel{
+    width: 250px;
+    height: 250px;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#btn {
+    margin-top: 20px;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #44D2F2;
+    border-style: none;
+    border-color: #0D0D0D;
+    color: 'black';
+    text-align: center;
+    
+}
+
+.btn-grad {background-image: linear-gradient(to right, #262526 0%, #F23545  51%, #592227  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 15px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }
+
+.local{
+    background-color: #F2F2F2;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+  }
